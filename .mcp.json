@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "caisey": {
+      "type": "http",
+      "url": "https://helpforsupport.com/mcp"
+    }
+  }
+}

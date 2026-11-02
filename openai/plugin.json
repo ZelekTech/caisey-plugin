@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "caisey",
+  "version": "1.0.0",
+  "description": "Caisey is an AI agent for MSPs that works on enrolled client PCs. Connect over MCP to list machines, read chats, send prompts, and handle approvals with an audit trail.",
+  "author": {
+    "name": "Zelek",
+    "email": "feedback@helpforsupport.com",
+    "url": "https://helpforsupport.com"
+  },
+  "homepage": "https://helpforsupport.com",
+  "repository": "https://github.com/ZelekTech/caisey-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "caisey",
+    "helpforsupport",
+    "msp",
+    "remote-support",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Caisey by Tech Garrison",
+        "shortDescription": "Troubleshoot enrolled client PCs from ChatGPT with human approval and audit.",
+        "longDescription": "Caisey is an AI agent for managed service providers. Through this plugin's remote MCP server, an AI client can list enrolled PCs, browse Caisey chats, read transcripts, send prompts to run work on remote machines, and respond to operator questions and command approvals. Commands on client PCs require human approval according to your workspace policy; decisions are audited.",
+        "developerName": "Zelek",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://helpforsupport.com",
+        "supportURL": "https://helpforsupport.com",
+        "privacyPolicyURL": "https://helpforsupport.com/privacy",
+        "termsOfServiceURL": "https://helpforsupport.com/terms",
+        "brandColor": "#000000",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png",
+        "defaultPrompt": [
+          "List my Caisey PCs that are online.",
+          "Show pending command approvals across my Caisey workspace."
+        ]
+      }
+    }
+  }
+}

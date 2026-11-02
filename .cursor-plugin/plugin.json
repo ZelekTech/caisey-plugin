@@ -1,0 +1,21 @@
+{
+  "name": "caisey",
+  "version": "1.0.0",
+  "description": "Caisey is an AI agent for MSPs that works on enrolled client PCs. Connect over MCP to list machines, read chats, send prompts, and handle approvals with an audit trail.",
+  "author": {
+    "name": "Zelek",
+    "email": "feedback@helpforsupport.com"
+  },
+  "homepage": "https://helpforsupport.com",
+  "repository": "https://github.com/ZelekTech/caisey-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "caisey",
+    "msp",
+    "helpforsupport",
+    "remote-support",
+    "mcp",
+    "troubleshooting"
+  ],
+  "logo": "assets/logo.svg"
+}

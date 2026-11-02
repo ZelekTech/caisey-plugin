@@ -1,0 +1,22 @@
+{
+  "_comment": "Example catalog entry for https://github.com/xai-org/plugin-marketplace — add to .grok-plugin/marketplace.json in that repo, pin sha to a 40-char commit on ZelekTech/caisey-plugin, then regenerate plugin-index.json.",
+  "name": "caisey",
+  "description": "Troubleshoot enrolled client PCs from Grok Build with Caisey remote MCP (OAuth, approvals, audit).",
+  "category": "monitoring",
+  "source": {
+    "source": "url",
+    "url": "https://github.com/ZelekTech/caisey-plugin.git",
+    "sha": "REPLACE_WITH_40_CHAR_COMMIT_SHA"
+  },
+  "homepage": "https://helpforsupport.com",
+  "keywords": [
+    "caisey",
+    "helpforsupport",
+    "tech-garrison",
+    "msp",
+    "remote-support"
+  ],
+  "domains": [
+    "helpforsupport.com"
+  ]
+}
